@@ -7,7 +7,8 @@ import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.*;
 
 import com.boot.model.*;
-import com.boot.repository.PersonaRepository;
+import com.boot.service.PersonaRepository;
+
 import javax.transaction.*;
 
 public class PersonaService {
